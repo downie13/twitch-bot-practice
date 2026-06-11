@@ -1,1 +1,15 @@
-
+{
+  "name": "twitch-bot-practice",
+  "version": "1.0.0",
+  "description": "Twitch Tiltify bot",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.2",
+    "tmi.js": "^1.8.5"
+  }
+}
